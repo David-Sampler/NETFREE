@@ -1,0 +1,28 @@
+<form class="example-form" [formGroup]="formulario">
+    <mat-form-field class="example-full-width">
+        <mat-label>Nome:</mat-label>
+        <input matInput placeholder="Ex. Pizza" formControlName="nome" name="nome">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+        <mat-label>Genêro</mat-label>
+        <input matInput placeholder="Ex. Pizza" formControlName="genero" name="genero">
+
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+        <mat-label>Linguagem</mat-label>
+        <input matInput placeholder="Ex. Pizza" formControlName="linguagem" name="linguagem">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+        <mat-label>Url</mat-label>
+        <input matInput placeholder="Ex. Pizza" formControlName="url" name="url">
+    </mat-form-field>
+
+    <button mat-raised-button style="width: 100%; color: white; background-color: rgb(44, 127, 134); "
+        (click)="setdados()" mat-dialog-close>Salvar</button>
+
+
+
+</form>

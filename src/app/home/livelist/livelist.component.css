@@ -1,0 +1,38 @@
+.principal{
+  padding-top: 80px;
+}
+.line1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cardfilmes{
+  width: 30%;
+  max-width: 600px;
+ transition: all 0.5s linear;
+}
+
+@media(max-width:1300px){
+  .cardfilmes{   
+  width: 45%;
+  transition: all 1s cubic-bezier();
+}
+}
+
+@media(max-width:1100px){
+  .cardfilmes{   
+  width: 80%;
+   transition: all 1s cubic-bezier();
+}
+@media(max-width:560px){
+  .cardfilmes{ 
+  max-width: 80%;  
+   transition: all 1s cubic-bezier();
+ 
+}
+
+}
+
+
+}
